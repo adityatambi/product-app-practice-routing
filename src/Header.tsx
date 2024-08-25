@@ -10,6 +10,7 @@ export function Header() {
     const search = formData.get('search') as string;
     setSearchParams({ search });
   }
+  console.log("test commit");
   return (
     <header className="text-left text-slate-50 bg-slate-900 h-40 p-5 ">
       <form className="relative text-right" onSubmit={handleSearchSubmit}>
